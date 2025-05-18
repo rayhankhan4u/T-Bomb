@@ -27,7 +27,7 @@
 git clone https://github.com/rayhankhan4u/T-Bomb.git
 cd T-Bomb
 chmod +x tbomb.sh
-./tbomb.shsh
+./tbomb.sh
 ```
 
 
