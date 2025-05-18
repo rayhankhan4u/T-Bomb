@@ -1,0 +1,45 @@
+# Python compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment and configuration files
+.env
+*.env
+*.local
+*.secret
+
+# Sensitive files
+apidata.json
+*.key
+*.token
+*.secret
+
+# Logs and temporary files
+*.log
+*.tmp
+temp/
+logs/
+
+# Dependency and build directories
+venv/
+.venv/
+env/
+dist/
+build/
+*.egg-info/
+
+# Editor and IDE files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Project-specific files (optional)
+.update
+*.bak
