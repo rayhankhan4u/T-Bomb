@@ -26,8 +26,8 @@
 ```bash
 git clone https://github.com/rayhankhan4u/T-Bomb.git
 cd T-Bomb
-chmod +x tbomb.sh
-./tbomb.sh
+chmod +x t-bomb.sh
+./t-bomb.sh
 ```
 
 
@@ -36,8 +36,8 @@ For Termux (Android)
 pkg install python git figlet toilet -y
 git clone https://github.com/rayhankhan4u/T-Bomb.git
 cd T-Bomb
-chmod +x tbomb.sh
-./tbomb.sh
+chmod +x t-bomb.sh
+./t-bomb.sh
 ```
 
 ---
@@ -46,15 +46,15 @@ chmod +x tbomb.sh
 
 Run via Bash script (Recommended):
 ```bash
-./tbomb.sh
+./t-bomb.sh
 ```
 Run via Python directly:
 ```bash
-python tbomb.py
+python t-bomb.py
 ```
 Example Workflow
 ```bash
-./tbomb.sh
+./t-bomb.sh
 ```
 [ # ] Welcome to T-Bomb by Rayhan
 [ → ] Select Mode:
