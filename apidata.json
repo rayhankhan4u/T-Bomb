@@ -46,6 +46,38 @@
                 "identifier": "OTP Send Successfully"
             }
         ],
+        "880": [
+            {
+                "name": "daraz",
+                "method": "POST",
+                "url": "https://acs-m.daraz.com.bd/h5/mtop.lazada.member.user.biz.sendverificationsms/1.0/",
+                "data": {
+                    "data": "{\"type\":\"COMMON_VERIFICATION\",\"token\":\"ea16eb02de0d4db6b26f7fea7014d404\",\"isResend\":true,\"shortUa\":true,\"phone\":\"{target}\",\"checkRisk\":true,\"scene\":\"operateLimitDefault\",\"deliveryType\":\"SMS\",\"phonePrefixCode\":\"880\"}"
+                },
+                "headers": {
+                    "Content-Type": "application/x-www-form-urlencoded",
+                    "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Mobile Safari/537.36",
+                    "bx-umidtoken": "T2gAld_XBcRTXgc1TDdeP8jujBZh4av8VoHUQq0IkygFNcOa4o1LgxQidYqoHwUc2YY="
+                },
+                "params": {
+                    "jsv": "2.7.4",
+                    "appKey": "24937400",
+                    "t": "1747666791882",
+                    "sign": "063060285c8a1d2c7f7cd19bc594dc56",
+                    "api": "mtop.lazada.member.user.biz.sendVerificationSms",
+                    "v": "1.0",
+                    "type": "originaljson",
+                    "isSec": "1",
+                    "AntiCreep": "true",
+                    "timeout": "20000",
+                    "dataType": "json",
+                    "sessionOption": "AutoLoginOnly",
+                    "x-i18n-language": "en",
+                    "x-i18n-regionID": "BD"
+                },
+                "identifier": "SUCCESS::调用成功"
+            }
+        ],
         "977": [
             {
                 "name": "Daraz Nepal",
